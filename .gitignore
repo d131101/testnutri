@@ -1,24 +1,47 @@
-# Compiled class file
-*.class
+# Archivos y carpetas generados por el IDE
+.nbproject/
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+*.ipr
+*.iws
 
-# Log file
+# Carpetas y archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpetas de dependencias y archivos de construcción
+node_modules/
+target/
+/bin/
+/build/
+/out/
+/dist/
+/target/
+/.vscode/
+/.sublime-project
+/.sublime-workspace
+
+# Archivos de configuración de entorno local
+config.ini
+database-config.json
+
+# Archivos de registro y salida de depuración
 *.log
+*.log.*
+logs/
 
-# BlueJ files
-*.ctxt
+# Archivos de claves y contraseñas (¡Nunca compartas estos!)
+secrets.json
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Archivos de configuración de usuario específicos del IDE
+.vscode/
+*.code-workspace
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Archivos temporales y de caché
+*.tmp
+*.swp
+.cache/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
